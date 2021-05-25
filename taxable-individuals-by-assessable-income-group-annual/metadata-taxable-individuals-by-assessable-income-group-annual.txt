@@ -1,0 +1,101 @@
+# Metadata for Taxable Individuals by Assessable Income Group, Annual
+---
+Identifier: '864442ea-21aa-457d-88d2-1e827093416f'
+Name: 'taxable-individuals-by-assessable-income-group-annual'
+Title: 'Taxable Individuals by Assessable Income Group, Annual'
+Description:
+  - 'Number of individuals, amount of assessable income, chargeable income and net
+    tax assessed of taxable tax resident and non-tax resident individuals by assessable
+    income ranges for Year of Assessment (YA)2004 to YA2019. Income is assessed on
+    a preceding year basis. The period of income relevant to the YA is the year preceding
+    the YA.'
+  - ''
+  - '* All figures are as at 31 March of the following year for each Year of Assessment
+    (i.e. the YA2018 figures are as at 31 March 2019).'
+Topics:
+  - 'Finance'
+Keywords:
+  - 'Cost of Living'
+  - 'Income'
+  - 'Income Tax'
+  - 'Salaries'
+  - 'Taxes'
+Publisher:
+  Name: 'Inland Revenue Authority of Singapore'
+  Admin 1:
+    Name: 'Chua Chanyi'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Chanyi@iras.gov.sg'
+  Admin 2:
+    Name: 'Chua Sin Chet'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Sin_Chet@iras.gov.sg'
+Sources:
+  - 'Inland Revenue Authority of Singapore'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2004-01-01 to 2019-12-31'
+Last Updated: '2020-09-27T08:14:38.924710'
+Resources:
+  -
+    Identifier: '65913425-8a0d-47ca-b9f7-569bca3ac688'
+    Title: 'Taxable Individuals by Assessed Income Group'
+    Url: 'https://storage.data.gov.sg/taxable-individuals-by-assessable-income-group-annual/resources/taxable-individuals-by-assessed-income-group-2020-09-27T08-14-38Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2019-12-31'
+    Description:
+      - '* Assessable Income refers to the total income of an individual less allowable
+        deductions such as business expenses, employment expenses and donations.'
+      - '* Chargeable Income of an individual is his/her assessable income less the
+        personal reliefs allowed.'
+      - '* Net Tax Assessed is the net tax payable or repayable by an individual after
+        taking into account allowable tax credits, tax remission, tax rebates and
+        tax deducted at source.'
+      - '* Non-Tax Resident refers to an individual who has worked in Singapore for
+        less than 183 days in the preceding year of the Year of Assessment.'
+    Last Updated: '2020-09-27T08:14:38.484955'
+    Schema:
+      -
+        Name: 'year_of_assessment'
+        Title: 'Year of Assessment'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'assessed_income_group'
+        Title: 'Assessed Income Group'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'S$'
+      -
+        Name: 'resident_type'
+        Title: 'Type of Resident'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_taxpayers'
+        Title: 'No. of Taxpayers'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
+      -
+        Name: 'assessable_income'
+        Title: 'Assessable Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'chargeable_income'
+        Title: 'Chargeable Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'net_tax_assessed'
+        Title: 'Net Tax Assessed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
